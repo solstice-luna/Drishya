@@ -6,6 +6,10 @@
 # Camera configuration
 camera-feed/go2rtc/go2rtc.yaml
 
+# Local recognition tests and face data
+**/app/test_*
+**/known_faces/
+
 # Python virtual environments
 .venv/
 venv/
