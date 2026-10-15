@@ -36,6 +36,13 @@ build/
 dist/
 *.egg-info/
 
+# Backend Node/Nest output and dependencies
+/backend/node_modules/
+/backend/dist/
+/backend/coverage/
+/backend/.nyc_output/
+/backend/*.tsbuildinfo
+
 # Logs and runtime output
 *.log
 *.pid
